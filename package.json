@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": " parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+
+  },
+  "author": "ahmed khairy",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.37.0",
+    "fractional": "^1.0.0",
+    "fractional.js": "^1.0.0",
+    "install": "^0.13.0",
+    "monaco-editor": "^0.49.0",
+    "npm": "^10.8.1",
+    "parcel": "^2.12.0",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0"
+  }
+}
