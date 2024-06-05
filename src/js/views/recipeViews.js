@@ -1,7 +1,6 @@
 import icons from 'url:../../img/icons.svg';
 import Fraction from 'fraction.js';
 import View from './View.js';
-console.log(Fraction)
 
 class RecipeView extends View{  
     // private property
